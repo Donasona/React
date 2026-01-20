@@ -5,6 +5,7 @@ function Todo() {
   return (
     <div>
         <h1>Todo list</h1>
+        <p>Total Todos: {todos.length}</p>
     </div>
   )
 }
